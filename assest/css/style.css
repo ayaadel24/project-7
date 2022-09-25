@@ -1,0 +1,53 @@
+
+.header
+{
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/about.jpg);
+  position: relative;
+  
+  
+}
+.header::after
+{
+  content: "";
+  background-image: url(../images/mobile.png) ;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left:  0px;
+}
+.header .contact 
+{
+  
+  font-family:cursive;
+  padding: 0px 200px 0px 500px;
+  margin: 0px;
+}
+.header .contact  h1
+{
+  color: rgb(18, 18, 78);
+}
+
+.header .icon
+{
+  padding: 0px 500px 0px 500px;
+  
+  display: flex;
+ 
+}
+.header .icon img
+{
+width: 50px;
+}
+.header .icon5 img
+{
+width: 50px;
+}
+.header .icon5
+{
+  display: flex;
+  padding: 0px 500px 0px 500px;
+}
